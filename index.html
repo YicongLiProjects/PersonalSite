@@ -1,0 +1,46 @@
+<!--In this order: doctype, html, head, body (title between head and body)-->
+<!--Only one doctype, html and body is allowed per file-->
+<!DOCTYPE html>
+<html class="main">
+    <head>
+        <title> Yicong Li's official webpage</title>
+        <link rel="stylesheet" href="style.css"> 
+        <body>
+            <!--This is a horizontal navigation bar-->
+            <!--We can create an unordered list of <a> to create one-->
+            <ul class="hnavbar">
+                <li><a href="MainPage.html">About</a></li>
+                <li><a href="MyProjectsPage.html">Projects</a></li>
+                <li><a href="ExperiencesInternships.html">My experiences and internships</a></li>
+            </ul>
+            <br>
+            <h1 class="title">About</h1>
+            <h2 id="myname">Yicong Li</h2>
+            <!--Wrap this section in a div for easier handling-->
+            <div id="about_me">
+                <h3 id="major">BSc Software Engineering student at McGill university</h3>
+                <p class="paragraph">
+                    <img src="yicong_linkedin_image.jpg" alt="My profile picture" id="myimage">
+                    I'm a Computer Science student at McGill University who likes
+                    low-level and systems programming, and also enjoys software development
+                    in general, including web and game development. At school I enjoy  
+                    math and coding / CS classes, but I also love physics classes that are useful
+                    for my CS career. My hobbies include playing video games, listening to various 
+                    music genres, watching football (soccer) both in my local stadium and online, 
+                    traveling and going to the arcade to play some games and earn tickets.
+                    You can find my LinkedIn <a href="https://www.linkedin.com/in/yicong-li-46a82a344/">here</a>.
+                </p>
+                <div id="contact_me">
+                    <h4>Contact me</h4>
+                    <!--Insert link to email using mailto keyword-->
+                    <p>Email: <a href="mailto:yicongli2005@outlook.com">yicongli2005@outlook.com</a></p>
+                    <p>DM me on LinkedIn</p>
+                </div>
+                <div id="cv">
+                    <h4>CV</h4>
+                    <a href="Yicong_CV.pdf">Here's my CV</a>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>

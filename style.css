@@ -1,0 +1,115 @@
+/* To remove whitespace around all pages 
+    * is the universal selector, which selects all elements.
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hnavbar {
+    /* Flexbox */
+    display: flex;
+    li {
+        list-style-type: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* Style the navigation bar elements as buttons */
+    li a {
+        padding: 10px;
+        /* Remove underline */
+        text-decoration: none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+    li a:hover {
+        background-color: gray;
+    }
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    align-items: stretch;
+    background-color: lightgray;
+}
+
+.title {
+    margin-left: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+#myname {
+    margin-left: 5px;
+    font-family:'Courier New', Courier, monospace;
+}
+#major {
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#myimage {
+    /* Add space to the left to make the entire border fully visible */
+    margin-left: 5px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 3px solid grey;
+    border-radius: 20%;
+}
+
+#contact_me {
+    h4 {
+        margin-left: 5px;
+        margin-top: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p {
+        margin-left: 5px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.paragraph {
+    margin-top: 10px;
+    img {
+        margin-right: 6px;
+    }
+    margin-left: 4px;
+    max-width: 45%;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about_me {
+    display: flex;
+    flex-direction: column;
+}
+
+#cv {
+    margin-left: 5px;
+    margin-top: 10px;
+    h4 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    a {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.list_section {
+    margin-left: 4px;
+    h2 {
+        font-family:'Courier New', Courier, monospace;
+    }
+}
+.experiences_internships_section {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ul {
+        margin-left: 20px;
+    }
+    margin-left: 5px;
+    li {
+        list-style-type: square;
+    }
+}
