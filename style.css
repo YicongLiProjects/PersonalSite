@@ -113,3 +113,14 @@
         list-style-type: square;
     }
 }
+
+.list_element {
+    margin-left: 4px;
+    font-family:'Courier New', Courier, monospace;
+    li a {
+        background-color: black;
+    }
+    li a:hover {
+        background-color: lightgray;
+    }
+}
