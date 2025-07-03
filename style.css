@@ -98,7 +98,8 @@
 }
 
 .list_section {
-    margin-left: 4px;
+    list-style-type: square;
+    margin-left: 6px;
     h2 {
         font-family:'Courier New', Courier, monospace;
     }
@@ -115,8 +116,8 @@
 }
 
 .list_element {
-    margin-left: 4px;
-    font-family:'Courier New', Courier, monospace;
+    margin-left: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     li a {
         background-color: black;
     }
